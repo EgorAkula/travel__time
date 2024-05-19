@@ -1,0 +1,127 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(../img/Travel\ Time.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-width: 1440px;
+    min-height: 1024px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.headder__roof {}
+
+.header__list {
+    padding-top: 50px;
+    display: flex;
+    color: #fff;
+    column-gap: 128px;
+    justify-content: space-between;
+}
+
+.header__roof-link {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4;
+}
+
+.header__roof-link:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.header__roof-item {}
+
+.header__mid {
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.header__mid-paragraph {}
+
+.header__paragraph-top {
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header__paragraph-bottom {
+    font-size: 24px;
+    font-weight: 275;
+    text-align: center;
+}
+
+.header__mid-btn {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.header__btn-wrap {
+    max-width: 191px;
+    margin-top: 350px;
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    background: seagreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+}
